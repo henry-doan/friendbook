@@ -35,7 +35,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # styling framework
 gem 'semantic-ui-sass'
 
-gem 'jquery-rails'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'pry'
