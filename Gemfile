@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # styling framework
+gem 'bcrypt'
+gem 'jquery'
 gem 'semantic-ui-sass'
 
 gem 'jquery-rails'
