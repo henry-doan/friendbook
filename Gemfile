@@ -34,8 +34,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # styling framework
 gem 'semantic-ui-sass'
-
+gem 'test'
 gem 'jquery-rails'
+gem 'jquery'
 
 group :development, :test do
   gem 'pry'
