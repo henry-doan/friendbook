@@ -1,0 +1,29 @@
+<%= @person.first_name %>
+
+<table class="ui celled table">
+  <thead>
+    <tr><th>First Name</th>
+    <th>Email</th>
+    <th>Avatar</th>
+    <th>Phone Number</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td><%= @person.first_name %></td>
+      <td><%= @person.email %></td>
+      <td>
+        <img class="ui small image" 
+        src=<%= @person.avatar %>
+        >
+      </td>
+      <td><%= @person.phone %></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="ui progress" id='ex'>
+  <div class="bar">
+    <div class="progress"></div>
+  </div>
+  <div class="label">Uploading Files</div>
+</div>

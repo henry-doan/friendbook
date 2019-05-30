@@ -1,0 +1,15 @@
+
+<div class='ui grid stackable'>
+
+  <div class='ui eight column'>
+    <h1 class='ui header choco'>People</h1>
+  </div>
+
+  <div class='ui eight column'>
+    <% @people.each do |person| %>
+      <%= link_to person.first_name, person %>
+      <br />
+    <% end %>
+  </div>
+
+</div>
